@@ -1,0 +1,18 @@
+---
+import AgentApp from '../components/AgentApp';
+import '../styles/globals.css';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="In-Browser Generative UI Demo — AI-powered UI generation running 100% in your browser via WebGPU." />
+    <title>In-Browser Generative UI Demo</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <AgentApp client:only="react" />
+  </body>
+</html>
